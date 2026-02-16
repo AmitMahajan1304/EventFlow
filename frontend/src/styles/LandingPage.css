@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.landing-container {
+  background: #f7f9fc;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.logo {
+  color: #2b6cb0;
+}
+
+.nav-links button {
+  margin-left: 10px;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  border: none;
+  background: #e2e8f0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav-btn.admin {
+  background: #2b6cb0;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #2b6cb0, #4299e1);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.primary-btn {
+  background: white;
+  color: #2b6cb0;
+  border: none;
+  padding: 12px 20px;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid white;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* FEATURES */
+.features {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+.feature-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.feature-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+/* HOW IT WORKS */
+.how-it-works {
+  padding: 80px 60px;
+  background: #edf2f7;
+  text-align: center;
+}
+
+.steps {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.step {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+}
+
+/* FOOTER */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #2b6cb0;
+  color: white;
+}
